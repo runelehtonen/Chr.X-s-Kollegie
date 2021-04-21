@@ -137,57 +137,14 @@ body {
     }
   }
 
+
+
+
   #header-container img{
       width: 100%;
   }
 
-.faciliteterpic {
-    width: 800px;
-    display: block;
-    margin: auto;
-    margin-bottom: 70px;
-    
-}
-
-.faciliteterh3 {
-    text-align: center;
-    margin-top: 30px;
-    font-family: 'Inter', sans-serif;
-    color: #4169e1;
-    
-}
-
-.infographich5 {
-     text-align: left;
-    margin-left: 420px;
-    margin-top: 30px;
-    font-family: 'Inter', sans-serif;
-    color: #4169e1;
-    margin-top: -3px;
-}
-
-.cykelpic {
-    width: 800px;
-    display: block;
-    margin: auto;
-    margin-bottom: 30px;
-}
   
-.cykelh3 {
-    text-align: center;
-    margin-top: 30px;
-    font-family: 'Inter', sans-serif;
-    color: #4169e1;
-}
-
-.cykelh5 {
-    text-align: center;
-    margin-top: 30px;
-    font-family: 'Inter', sans-serif;
-    color: #4169e1;
-    margin-top: -20px;
-}
-
 /* Relaterede produkter --------------------------------------------------*/
 .vedligeholdelse {
   margin-bottom: 50px;
@@ -284,20 +241,6 @@ body {
     width: 150px;
     transition: .6s;
 }
-
-.tekstcontent-kalender {
-    text-align: center;
-}
-
-.tekstcontent-faciliteter {
-    text-align: center;
-}
-
-.tekstcontent-omkollegiet {
-    text-align: center;
-}
-
-.
 
 /* ==========================================
     Footer
@@ -469,5 +412,4 @@ body {
   font-size: 22px;
   line-height: 40px;
 }
-
 
