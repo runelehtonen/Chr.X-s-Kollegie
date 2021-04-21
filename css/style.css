@@ -88,6 +88,14 @@ body {
     display: none;
   }
 
+  .logo-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -5px;
+    padding-top: 3px;
+}
 
   /* MEDIA QUERIES */
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -259,5 +267,62 @@ body {
   footer {
     background: #212529;
   }
- 
+
+  .google-calendar {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+    .contact-block {
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+    }
+    .contact-block h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #1c87c9;
+    }
   
+    .contact-block p {
+    margin: 0 0 5px;
+    }
+
+    .contact-block form {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+    }
+
+    .contact-block input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+    }
+    .contact-block input::placeholder {
+    color: #666;
+    }
+    .contact-block button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #4169e1; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    .contact-block button:hover {
+    background: #4169b1;
+    }    
+
+    #kalender_heading {
+      margin-bottom: -30px;
+    }
+
+
