@@ -137,9 +137,6 @@ body {
     }
   }
 
-
-
-
   #header-container img{
       width: 100%;
   }
@@ -148,12 +145,12 @@ body {
     width: 800px;
     display: block;
     margin: auto;
+    margin-bottom: 70px;
     
 }
 
 .faciliteterh3 {
-    text-align: left;
-    margin-left: 420px;
+    text-align: center;
     margin-top: 30px;
     font-family: 'Inter', sans-serif;
     color: #4169e1;
@@ -177,16 +174,14 @@ body {
 }
   
 .cykelh3 {
-    margin-left: 430px;
-    text-align: left;
+    text-align: center;
     margin-top: 30px;
     font-family: 'Inter', sans-serif;
     color: #4169e1;
 }
 
 .cykelh5 {
-     text-align: left;
-    margin-left: 430px;
+    text-align: center;
     margin-top: 30px;
     font-family: 'Inter', sans-serif;
     color: #4169e1;
@@ -206,7 +201,7 @@ body {
 }
 
 .main_heading {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 32px;
     letter-spacing: 1px;
@@ -261,6 +256,11 @@ body {
     margin-bottom: 0.5rem;
     color: #4169e1;
     font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card p {
+    font-family: 'Inter', sans-serif;
 }
 
 .card_button {
@@ -290,10 +290,31 @@ body {
     transition: .6s;
 }
 
+.tekstcontent-kalender {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+
+.tekstcontent-faciliteter {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.tekstcontent-omkollegiet {
+    text-align: center;
+}
+
+.
+
 /* ==========================================
     Footer
   ========================================== */ 
-  a {
+h5 {
+    font-family: 'Poppins', sans-serif;
+} 
+a {
     color: inherit;
     text-decoration: none;
     transition: all 0.3s;
@@ -372,5 +393,93 @@ body {
     #kalender_heading {
       margin-bottom: -30px;
     }
+
+/* ==========================================
+    Notifikationer & Advarsler
+  ========================================== */ 
+
+.alert{
+  background: #00C95E;
+  padding: 20px 40px;
+  max-width: 420px;
+  position: absolute;
+  right: 0;
+  margin-left: 1500px;
+  top: 10px;
+  border-radius: 4px;
+  border-left: 8px solid #ffa502;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 999;
+}
+.alert.showAlert{
+  opacity: 1;
+  pointer-events: auto;
+}
+.alert.show{
+  animation: show_slide 1s ease forwards;
+}
+@keyframes show_slide {
+  0%{
+    transform: translateX(100%);
+  }
+  40%{
+    transform: translateX(-10%);
+  }
+  80%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-10px);
+  }
+}
+.alert.hide{
+  animation: hide_slide 1s ease forwards;
+}
+@keyframes hide_slide {
+  0%{
+    transform: translateX(-10px);
+  }
+  40%{
+    transform: translateX(0%);
+  }
+  80%{
+    transform: translateX(-10%);
+  }
+  100%{
+    transform: translateX(100%);
+  }
+}
+.alert .fa-check-square{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #008E42;
+  font-size: 30px;
+}
+.alert .msg{
+  padding: 0 20px;
+  padding-left: 40px;
+  font-size: 18px;
+  color: #2D2D2D;
+}
+.alert .close-btn{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #009C49;
+  padding: 20px 18px;
+  cursor: pointer;
+}
+.alert .close-btn:hover{
+  background: #00AC50;
+}
+.alert .close-btn .fas{
+  color: #343434;
+  font-size: 22px;
+  line-height: 40px;
+}
 
 
