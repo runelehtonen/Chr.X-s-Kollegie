@@ -144,7 +144,55 @@ body {
       width: 100%;
   }
 
+.faciliteterpic {
+    width: 800px;
+    display: block;
+    margin: auto;
+    
+}
+
+.faciliteterh3 {
+    text-align: left;
+    margin-left: 420px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #4169e1;
+    
+}
+
+.infographich5 {
+     text-align: left;
+    margin-left: 420px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #4169e1;
+    margin-top: -3px;
+}
+
+.cykelpic {
+    width: 800px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
   
+.cykelh3 {
+    margin-left: 430px;
+    text-align: left;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #4169e1;
+}
+
+.cykelh5 {
+     text-align: left;
+    margin-left: 430px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #4169e1;
+    margin-top: -20px;
+}
+
 /* Relaterede produkter --------------------------------------------------*/
 .vedligeholdelse {
   margin-bottom: 50px;
